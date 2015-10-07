@@ -1,5 +1,9 @@
 # Hyde
 
+This PR should not trigger Travis.
+
+One more line
+
 This repository holds our forked version of the popular Hyde theme for Jekyll
 ([original readme](./README-original.md)).
 
