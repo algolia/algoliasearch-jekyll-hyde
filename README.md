@@ -1,20 +1,7 @@
-# Hyde
+# Deprecation notice
 
-This repository holds our forked version of the popular Hyde theme for Jekyll
-([original readme](./README-original.md)).
+This repository is no longer maintained. The `algoliasearch-jekyll` gem it was using has been deprecated in favor of [jekyll-algolia](https://github.com/algolia/jekyll-algolia).
 
-We've added a search box in the sidebar that provides instant search on all your
-posts and pages (provided that you've indexed them with our [Jekyll plugin][1]).
+You should check [this tutorial](https://community.algolia.com/jekyll-algolia/blog.html) to see how to build a front-end search that uses the `jekyll-algolia` plugin.
 
-![Demo animation](./_animation.gif)
-
-We've imported the content of [our blog](https://blog.algolia.com/), and made
-a [demo available online](http://algolia.github.io/algoliasearch-jekyll-hyde/)
-so you can test it.
-
-## Maintenance
-
-We'll strive to keep this repository up to date with any update done to the
-original Hyde theme.
-
-[1]: https://github.com/algolia/algoliasearch-jekyll
+If you have any comments or questions, you should [open an issue](https://github.com/algolia/jekyll-algolia/issues) on the `jekyll-algolia` repository.
